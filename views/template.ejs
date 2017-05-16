@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chris Caraway's Website</title>
+		<link rel="stylesheet" type="text/css" href= "/reset.css"/>
+		<link rel ="stylesheet" type="text/css" href= "/website.css"/>
+	</head>
+	<body>
+			<div class="template">
+				<a href="/" class="template-header">
+					<h1>Chris Caraway's Website</h1>
+				</a>
+
+				<main class="template-main">
+				 <%- include("pages/" + page, pageArgs); %>
+				</main>
+
+			</div>
+	</body>
+</html>
