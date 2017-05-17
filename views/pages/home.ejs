@@ -1,0 +1,12 @@
+<div class="home">
+	<p class="home-message">
+		Chris Caraway Homepage
+	</p>
+	<ul class="home-links">
+		<% for (let i = 0; i < links.length; i++) { %>
+			<a class="home-links-link" href="<%= links[i].href %>">
+				<%= links[i].text %>
+			</a>
+		<% } %>
+	</ul>
+</div>

@@ -1,37 +1,65 @@
-ul {
-  font-family: "Cambria", serif;
-}
-
-h1, h2, h3 {
-  font-family: "Cambria", serif;
-  text-align: center;
-}
-
-*, *:after, *:before {
-  box-sizing: border-box;
-
-}
-
-div {
-	align-content: center;
-	width: 900px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	margin: 0 auto;
-	background-color: #A3E4D7;
-}
-
-p {
-  text-align: center;
-}
-
-img {
-	align-content: center;
-  width: 200px;
-  height: 250px;
-}
-
-
 body {
-  background: #F5F5F5;
+	background: #FAFAFA;
+}
+
+.template {
+	text-align: center;
+	max-width: 980px;
+	margin: auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.template-header {
+	font-size: 48px;
+	padding: 30px;
+	margin: 0;
+	font-weight: 100;
+	color: #000;
+	text-decoration: none;
+}
+.template-header:hover {
+	color: #999;
+}
+
+.template-footer {
+	padding-top: 50px;
+	font-size: 13px;
+	color: #999;
+}
+
+
+.home-message {
+	margin-bottom: 30px;
+}
+
+.home-links-link {
+	display: block;
+	color: #44B;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.home-links-link:hover {
+	color: #44E;
+}
+
+
+
+.about-picture {
+	width: 160px;
+	height: 160px;
+	border-radius: 100%;
+	margin-bottom: 20px;
+}
+
+.about-message {
+	margin-bottom: 20px;
+}
+
+.about-link {
+	padding: 2px 8px;
+	color: #44B;
+	text-decoration: none;
+}
+.about-link:hover {
+	color: #44E;
 }

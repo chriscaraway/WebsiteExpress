@@ -1,19 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE ejs>
 <html>
 	<head>
-		<title>Chris Caraway's Website</title>
-		<link rel="stylesheet" type="text/css" href= "/reset.css"/>
+		<title>Chris Caraway's Website - <%= title %></title>
+		<link ="stylesheet" type="text/css" href= "/reset.css"/>
 		<link rel ="stylesheet" type="text/css" href= "/website.css"/>
 	</head>
 	<body>
 			<div class="template">
 				<a href="/" class="template-header">
-					<h1>Chris Caraway's Website</h1>
+					<h1>About</h1>
 				</a>
 
 				<main class="template-main">
 				 <%- include("pages/" + page, pageArgs); %>
 				</main>
+
+				<footer class="template-footer">Chris Caraway 2017</footer>
 
 			</div>
 	</body>

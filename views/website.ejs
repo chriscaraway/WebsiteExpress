@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lnag ="en">
+<head>
+
+<title>About Me</title>
+</head>
+<body>
+
+	<h1>EJS - node template engine</h1>
+		<div>
+			<p>
+				<% if (isEjs) { %>
+					You are amazing
+				<% } else { %>
+					Get on it!
+				<%} %>
+			</p>
+
+			<p>
+					adsfadsfadsfdsafdsaf
+			</p>
+			<ul>
+
+				<% for (let i = 0; i < list.length; i++) { %>
+					<li><%= list[i] %></li>
+				<% } %>
+			</ul>
+		</div>
+	</body>
+</html>

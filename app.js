@@ -35,7 +35,7 @@ app.get(("/"), function(req, res) {
 app.get("/about", function(req, res) {
 	renderTemplate(res, "about", "About", {
 		picture: "images/chris.jpeg",
-		linkedin: "www.linkedin.com/in/christophercaraway",
+		linkedin: "Chris Caraway",
 });
 });
 
