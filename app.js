@@ -23,8 +23,8 @@ function renderTemplate(res, page, title, pageArgs) {
 app.get(("/"), function(req, res) {
 	renderTemplate(res, "home", "Homepage", {
 		links: [{
-			text: "EJS Example",
-			href: "/ejs",
+			text: "Stuff I did",
+			href: "/projects",
 		}, {
 			text: "About",
 			href: "/about",
@@ -39,13 +39,20 @@ app.get("/about", function(req, res) {
 });
 });
 
-
-app.get("/chriscaraway", function(req, res) {
-	console.log("Chris Caraway Hompepage");
-	res.render("chriscaraway");
+app.get("/projects", function(req, res) {
+	renderTemplate(res, "projects", "Projects", {
+		github: "Chris Caraway",
+});
 });
 
+
+
+// app.get("/projects", function(req, res) {
+// 	console.log("Chris Caraway Hompepage");
+// 	res.render("chriscaraway");
+// });
 //
+// //
 // app.get("/about", function(req, res) {
 // 	renderTemplate(res, "about", "About", {
 // 	picture: " ",
